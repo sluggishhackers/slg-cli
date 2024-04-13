@@ -50,8 +50,8 @@ devDependencies:
     specifier: ^10
     version: 10.4.0
   oclif:
-    specifier: ^4.7.6
-    version: 4.7.6
+    specifier: ^4.8.2
+    version: 4.8.2
   shx:
     specifier: ^0.3.4
     version: 0.3.4
@@ -4025,8 +4025,8 @@ packages:
       es-object-atoms: 1.0.0
     dev: true
 
-  /oclif@4.7.6:
-    resolution: {integrity: sha512-R2Fdef6R8n1UIVAJTCP0oEIRkExMniei4QqmK7ue9iN8PTf+6q5ROrl7/pxMH/DzDCKnkTsi5mBhyT3HqFAZ1w==}
+  /oclif@4.8.2:
+    resolution: {integrity: sha512-Z2QCRQsEfCoz1nvZLZ+e9fb8menIZd/flAzr/dFeYdgM+ZABSLdlku1wNX0nK7kD88bYHOe21LvTMmB3UvHWtg==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     dependencies:
