@@ -13,3 +13,10 @@ Command Line Interface tool for [Sluggish Hackers](https://sluggish.at)
 # ~/.zshrc
 export GOOGLE_APPLICATION_CREDENTIALS="/Users/hoony/Downloads/key.json
 ```
+
+## Test
+
+```zsh
+pnpm install
+pnpm test
+```
