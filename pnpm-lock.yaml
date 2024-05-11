@@ -56,8 +56,8 @@ devDependencies:
     specifier: ^10
     version: 10.4.0
   oclif:
-    specifier: ^4.10.6
-    version: 4.10.6
+    specifier: ^4.10.7
+    version: 4.10.7
   shx:
     specifier: ^0.3.4
     version: 0.3.4
@@ -857,9 +857,9 @@ packages:
     resolution: {integrity: sha512-ne5VhDqruYYzx8mmjDZ9F58ymrLJGxmSHJUcJGiW3tifzvl3goAm6gNX11w6+zUnGE54vgQ6ALDXL3IOSezMRw==}
     engines: {node: '>=18'}
     dependencies:
-      '@inquirer/type': 1.2.1
+      '@inquirer/type': 1.3.1
       '@types/mute-stream': 0.0.4
-      '@types/node': 20.12.5
+      '@types/node': 20.12.11
       '@types/wrap-ansi': 3.0.0
       ansi-escapes: 4.3.2
       chalk: 4.1.2
@@ -901,7 +901,7 @@ packages:
     engines: {node: '>=18'}
     dependencies:
       '@inquirer/core': 7.1.2
-      '@inquirer/type': 1.2.1
+      '@inquirer/type': 1.3.1
     dev: true
 
   /@inquirer/select@2.3.2:
@@ -913,11 +913,6 @@ packages:
       '@inquirer/type': 1.3.1
       ansi-escapes: 4.3.2
       chalk: 4.1.2
-    dev: true
-
-  /@inquirer/type@1.2.1:
-    resolution: {integrity: sha512-xwMfkPAxeo8Ji/IxfUSqzRi0/+F2GIqJmpc5/thelgMGsjNZcjDDRBO9TLXT1s/hdx/mK5QbVIvgoLIFgXhTMQ==}
-    engines: {node: '>=18'}
     dev: true
 
   /@inquirer/type@1.3.1:
@@ -1621,12 +1616,6 @@ packages:
 
   /@types/node@20.12.11:
     resolution: {integrity: sha512-vDg9PZ/zi+Nqp6boSOT7plNuthRugEKixDv5sFTIpkE89MmNtEArAShI4mxuX2+UrLEe9pxC1vm2cjm9YlWbJw==}
-    dependencies:
-      undici-types: 5.26.5
-    dev: true
-
-  /@types/node@20.12.5:
-    resolution: {integrity: sha512-BD+BjQ9LS/D8ST9p5uqBxghlN+S42iuNxjsUGjeZobe/ciXzk2qb1B6IXc6AnRLS+yFJRpN2IPEHMzwspfDJNw==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -4200,8 +4189,8 @@ packages:
       es-object-atoms: 1.0.0
     dev: true
 
-  /oclif@4.10.6:
-    resolution: {integrity: sha512-3MF84SA56CMJqZuPaGkOOhu5CLSrvBZB+LI/02OlfuubOPNAi92OLxkEnihxLgrBuI5nKe405OcsiPtap9tRyA==}
+  /oclif@4.10.7:
+    resolution: {integrity: sha512-ZyfNT4DbtFwqq7fh0xrHrctjqxR2O4mkclvj//SiRkylAk154Nytl1D+JlMQDewqcqzKK07bHd04JUzAlOWKSA==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     dependencies:
@@ -4227,6 +4216,7 @@ packages:
       normalize-package-data: 6.0.1
       semver: 7.6.0
       sort-package-json: 2.10.0
+      tiny-jsonc: 1.0.1
       validate-npm-package-name: 5.0.0
     transitivePeerDependencies:
       - aws-crt
@@ -4869,6 +4859,10 @@ packages:
 
   /text-table@0.2.0:
     resolution: {integrity: sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==}
+    dev: true
+
+  /tiny-jsonc@1.0.1:
+    resolution: {integrity: sha512-ik6BCxzva9DoiEfDX/li0L2cWKPPENYvixUprFdl3YPi4bZZUhDnNI9YUkacrv+uIG90dnxR5mNqaoD6UhD6Bw==}
     dev: true
 
   /to-regex-range@5.0.1:
