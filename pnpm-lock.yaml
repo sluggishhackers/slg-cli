@@ -10,7 +10,7 @@ dependencies:
     version: 3.26.6
   '@oclif/plugin-help':
     specifier: ^6
-    version: 6.0.20
+    version: 6.0.21
   '@oclif/plugin-plugins':
     specifier: ^5
     version: 5.0.21
@@ -987,19 +987,11 @@ packages:
       wordwrap: 1.0.0
       wrap-ansi: 7.0.0
 
-  /@oclif/plugin-help@6.0.20:
-    resolution: {integrity: sha512-4UG/5q7O3dhUsC0JMqcUV0NU7jybkXkAXLnsRt+KVzDtZWwNOeBECimIFWOmwna5BaneTn8b0+lqO4JvUgeiqA==}
-    engines: {node: '>=18.0.0'}
-    dependencies:
-      '@oclif/core': 3.26.6
-    dev: false
-
   /@oclif/plugin-help@6.0.21:
     resolution: {integrity: sha512-w860r9d456xhw1GPaos9yQF+BZeFY9UKdrINbL3fZFX5ZHhr/zGT4Fep5wUkHogjjnSB8+ZHi3D6j2jScIizUw==}
     engines: {node: '>=18.0.0'}
     dependencies:
       '@oclif/core': 3.26.6
-    dev: true
 
   /@oclif/plugin-not-found@3.1.8:
     resolution: {integrity: sha512-TbpMJ7PODaXuodSivqJo9cFxiVxNUmkCCl1BTdMpLuy82nxMv6aON0W1DVJryJ/OQjM4RKXvH3x3qCB7Xn0U8g==}
