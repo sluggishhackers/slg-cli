@@ -45,7 +45,7 @@ devDependencies:
     version: 8.57.0
   eslint-config-oclif:
     specifier: ^5
-    version: 5.1.1(eslint@8.57.0)
+    version: 5.2.0(eslint@8.57.0)
   eslint-config-oclif-typescript:
     specifier: ^3
     version: 3.1.7(eslint@8.57.0)(typescript@5.4.4)
@@ -2555,12 +2555,12 @@ packages:
       - vue-eslint-parser
     dev: true
 
-  /eslint-config-oclif@5.1.1(eslint@8.57.0):
-    resolution: {integrity: sha512-cyvKKwNnNkrYmumgrd72I8WxXJBL2DDI8fX2/wX5v4O0kl7Poj2ceR4ylP6DWXpCbD48+qXGwjIjiz2cVVVrzQ==}
+  /eslint-config-oclif@5.2.0(eslint@8.57.0):
+    resolution: {integrity: sha512-fd2rFmm1x5YvTHNklSigbKj8ymo/uAU/PKBic/Yc+9yCRHgOAQos01mBLYVw9oeoyVLx+d79YVidkqgPoyx6RQ==}
     engines: {node: '>=18.0.0'}
     dependencies:
       eslint-config-xo-space: 0.35.0(eslint@8.57.0)
-      eslint-plugin-mocha: 10.4.1(eslint@8.57.0)
+      eslint-plugin-mocha: 10.4.3(eslint@8.57.0)
       eslint-plugin-n: 15.7.0(eslint@8.57.0)
       eslint-plugin-unicorn: 48.0.1(eslint@8.57.0)
     transitivePeerDependencies:
@@ -2703,18 +2703,6 @@ packages:
       - eslint-import-resolver-typescript
       - eslint-import-resolver-webpack
       - supports-color
-    dev: true
-
-  /eslint-plugin-mocha@10.4.1(eslint@8.57.0):
-    resolution: {integrity: sha512-G85ALUgKaLzuEuHhoW3HVRgPTmia6njQC3qCG6CEvA8/Ja9PDZnRZOuzekMki+HaViEQXINuYsmhp5WR5/4MfA==}
-    engines: {node: '>=14.0.0'}
-    peerDependencies:
-      eslint: '>=7.0.0'
-    dependencies:
-      eslint: 8.57.0
-      eslint-utils: 3.0.0(eslint@8.57.0)
-      globals: 13.24.0
-      rambda: 7.5.0
     dev: true
 
   /eslint-plugin-mocha@10.4.3(eslint@8.57.0):
